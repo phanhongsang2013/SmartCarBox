@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--Start Top-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#2574a9"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="15dp">
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerInside"
+                android:background="#2574a9"
+                android:src="@drawable/Back_Preve"
+                android:id="@+id/imageButton_Back" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+            <TextView
+                android:text="Rating Garage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+<!--End Top-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#ffffff">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your opinion matters!"
+            android:textColor="#2574a9"
+            android:textSize="27dp"
+            android:layout_marginTop="50dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We work supper hard to make any thing better"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:layout_marginTop="50dp" />
+      <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="for you and would love to know"
+            android:textColor="#000000"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How would you rate our garage:"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:rating="0"
+                android:numStars="5"
+                android:layout_marginTop="30dp"
+                android:id="@+id/ratingBar"
+                android:theme="@style/MyTheme" />
+            <LinearLayout
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp">
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:background="@drawable/Oval_DeleteDevice"
+                    android:id="@+id/btn_gr5" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hocky's garage"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="#2574a9"
+                    android:text="Submit"
+                    android:textSize="17dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/btn_submit" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

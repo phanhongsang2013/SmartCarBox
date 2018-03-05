@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Smart Car Box</string>
+  <string name="Account">Account</string>
+  <string-array name="dropdown_arrays1">
+
+    <item>Wheel</item>
+    <item>Brake</item>
+    <item>Exhaust fumes</item>
+  </string-array>
+  <string-array name="dropdown_arrays2">
+
+    <item>Item 1</item>
+    <item>Item 2</item>
+    <item>Item 3</item>
+    <item>Item 4</item>
+    <item>Item 5</item>
+  </string-array>
+  <string-array name="dropdown_arrays3">
+
+    <item>Hot Tel: 0969-XXX-XXX</item>
+    <item>More detail: https://SmartCarBox.net</item>
+  </string-array>
+</resources>

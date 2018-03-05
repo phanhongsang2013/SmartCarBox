@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+<!--Start Top-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#2574a9"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingLeft="15dp">
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:scaleType="centerInside"
+                android:background="#2574a9"
+                android:src="@drawable/Back_Preve"
+                android:id="@+id/imageButton_Back" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+            <TextView
+                android:text="Maintainace Reminder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+<!--End Top-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="2">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_ok"
+                    android:id="@+id/icon_ok"
+                    android:padding="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="18dp" />
+                <TextView
+                    android:text="Time Reminder:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+             android:layout_marginTop="20dp">
+            <LinearLayout
+              android:layout_width="0dp"
+            android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_weight="1">
+              <TextView/>
+            </LinearLayout>
+            
+          </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/icon_ok"
+                    android:id="@+id/icon_ok"
+                    android:padding="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="18dp" />
+                <TextView
+                    android:text="Content:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please take your car to the garage to make sure that all things inside are good."
+                android:textColor="#000000"
+                android:background="#ffffff"
+                android:padding="15dp"
+                android:id="@+id/text_content" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Setup"
+                    android:textColor="#ffffff"
+                    android:background="#2574a9"
+                    android:textStyle="bold"
+                    android:id="@+id/btn_add" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
